@@ -1,7 +1,7 @@
 # Slice-AtlasSprites-as-png
 아틀라스로된 이미지파일을 잘라줍니다..
 
-##How 2 Use it
+## How 2 Use it
 
 > A. 아틀라스 스프라이트가 Multiple이 아니라면 바꿔주세요<br>
 > B. 아틀라스 스프라이트 옵션에 (Advanced) Read/Write Enable옵션을 켜주세요<br>
