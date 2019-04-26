@@ -42,7 +42,7 @@ public class SliceSprites : MonoBehaviour
             return;
         }
 
-        // Convert to binary file and create bitmap file
+        // Get each sprite to create png file
         for(var i=0;i<sprites.Length;i++)
         {
             var sprite = sprites[i]; // Get each sprite as to slice atlas sprite
@@ -58,7 +58,7 @@ public class SliceSprites : MonoBehaviour
             File.WriteAllBytes(_path.ToString(), imageBuffer); // Make png file
             _path.Clear();
         }
-        // To debug
+        // Debug
         _path.AppendFormat("{0}{1}{2}{3}{4}", Application.dataPath, @"/", toCreateFolderName, @"/", toCreateFileName);
         Debug.Log("Crated Complete : " + _path);
         AssetDatabase.Refresh(); // Refresh Editor
