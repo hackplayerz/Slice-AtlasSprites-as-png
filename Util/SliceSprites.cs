@@ -1,6 +1,6 @@
  /*
  * <CopyRight> Dev.NikuRamen </CopyRight>
- * <License> Mit licence </License>
+ * <License> Mit license </License>
  * Slice atlas file to each file
  *
  * Email :  dev.alter0@gmail.com
