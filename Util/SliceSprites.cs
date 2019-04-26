@@ -27,9 +27,7 @@ public class SliceSprites : MonoBehaviour
     
     #endregion
     
-    /// <summary>
-    /// This Script is 
-    /// </summary>
+
     [ContextMenu("Create File")]
     void SliceSprite()
     {
