@@ -1,4 +1,4 @@
-﻿/*
+ /*
  * <CopyRight> Dev.NikuRamen </CopyRight>
  * <License> Mit licence </License>
  * Slice atlas file to each file
@@ -64,5 +64,6 @@ public class SliceSprites : MonoBehaviour
         _path.AppendFormat("{0}{1}{2}{3}{4}", Application.dataPath, @"/", toCreateFolderName, @"/", toCreateFileName);
         Debug.Log("Crated Complete : " + _path);
         AssetDatabase.Refresh(); // Refresh Editor
+        _path.Clear();
     }
 }
